@@ -3,12 +3,22 @@ const ReactDOM = require('react-dom')
 const store = require('./store')
 const ProductsList = require('./components/ProductsList')
 const { productsLoaded } = require('./actions')
+const { Container } = require('semantic-ui-react')
+
 window.store = store
+
+const style = {
+  marginTop: '3%',
+  marginLeft: '5%',
+  marginRight: '5%'
+}
 
 const App = props => {
   return (
     <div className='app'>
-      <ProductsList {...props} />
+      <Container style={style}>
+        <ProductsList {...props} />
+      </Container>
     </div>
   )
 }
@@ -27,4 +37,5 @@ fetch('/products')
   .then(res => res.json())
   .then(products => {
     store.dispatch(productsLoaded(products))
-  })
+  }
+)

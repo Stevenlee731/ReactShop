@@ -1,7 +1,7 @@
 const PRODUCTS_LOADED = 'PRODUCTS_LOADED'
-const productsLoaded = payload => ({
+const productsLoaded = products => ({
   type: PRODUCTS_LOADED,
-  payload
+  products
 })
 
 const Actions = {

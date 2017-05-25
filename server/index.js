@@ -27,6 +27,7 @@ const products = [
 ]
 
 app.get('/products', (req, res) => {
+  console.log('products', products)
   res.json(products)
 })
 
