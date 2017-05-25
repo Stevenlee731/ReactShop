@@ -23,6 +23,20 @@ const products = [
     price: 12.99,
     description: 'Ullamco laboris nisi ut aliquid ex ea commodi consequat.',
     imageLink: 'http://photobyjohnny.com/ITEM_IMAGE/WT1/WT1-BLACK-2.jpg'
+  },
+  {
+    id: 3,
+    productName: 'Coral Tunic',
+    price: 12.99,
+    description: 'Ullamco laboris nisi ut aliquid ex ea commodi consequat.',
+    imageLink: 'http://photobyjohnny.com/ITEM_IMAGE/WT1037/WT1037-CORAL-1.jpg'
+  },
+  {
+    id: 4,
+    productName: 'Blue Tunic',
+    price: 12.99,
+    description: 'Ullamco laboris nisi ut aliquid ex ea commodi consequat.',
+    imageLink: 'http://photobyjohnny.com/ITEM_IMAGE/WT1038/WT1038-COBALT_BLUE-1.jpg'
   }
 ]
 
